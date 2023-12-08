@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Can Balcı</title>
+    <meta name="keywords" content="Motorsiklet,Programlama,Bar">
+    <meta name="description" content="Umut Can Balcı'nın internet sayfası">
+
+    <!--Fonts Google-->
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    >
+    <!--Font Awosome-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    >
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Tablet-->
+    <link rel="stylesheet"media="(max-width:768px)" href="css/tablet.css">
+    <!--Mobile-->
+    <link rel="stylesheet"media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Umut Can Balcı</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#education">Eğitim Hayatım</a></li>
+                    <li><a href="#hobbies">Hobilerim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="image/Umut.jpg" alt="Umut Can Balcı">
+        <div class="name text-center">
+            <h2 class="heading-big">Umut Can Balcı</h2>
+            <p>Bilgisayar Programcısı | Founder of Muy Medya</p>
+        </div>
+
+        <a href="#hobbies" class="btn btn-primary">Hobilere Git</a>
+    </section>
+
+    <section id="education" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitim Hayatım</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Orta Okul</h3>
+                <p>
+                    Nebi Güney İmamhatip Ortaokulu
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Lise</h3>
+                <p>
+                    Şehit Muhammet Oğuz Kılınç Anadolu İmamhatip Lisesi
+                </p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Üniversite</h3>
+                <p>
+                    Akdeniz Üniversitesi Manavgat Meslek Yüksek Okulu <br>
+                    Bilgisayar Programcılığı
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h3 class="text-center heading-medium">Hobilerim</h3>
+
+        <div class="container">
+            <div class="hobbies">
+                <!--Hobi 1-->
+                <div class="hobby">
+                    <div class="hobby-image">
+                        <img src="image/motoryıkama.jpg" alt="Motorsiklet">
+                        <img src="image/motor.jpg" alt="Motorsiklet">
+                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            Motorsiklet
+                        </div>
+                    </div>
+                </div>
+                 <!--Hobi 2-->
+                 <div class="hobby">
+                    <div class="hobby-image">
+                        <img src="image/programing.jpg" alt="Programlama">
+                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            Programlama| Yılan oyunu denemesi
+                        </div>
+                    </div>
+                </div>
+                 <!--Hobi 3-->
+                 <div class="hobby">
+                    <div class="hobby-image">
+                        <img src="image/kokteyl.jpg" alt="Bar">
+                        <img src="image/servisbar.jpg" alt="Bar">                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            Bartmen
+                        </div>
+                    </div>
+                </div>
+
+                <footer id="contact" class="bg-dark-blue">
+                    <div class="contact-form">
+                        <form>
+                            <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                            <div class="form-group">
+                                <label for="name">İsim</label>
+                                <textarea
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="İsim"
+                                ></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input 
+                                type="text"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="E-mail"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesaj</label>
+                                <input 
+                                type="text"
+                                class="form-control"
+                                name="message"
+                                id="message"
+                                placeholder="Mesajınız..."
+                                >
+                            </div>
+
+                            <button type="submit" class="btn btn-block">Gönder</button>
+                        </form>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
